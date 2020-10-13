@@ -52,6 +52,8 @@ Ensure that CuTest.c and CuTest.h are accessible from your C
 project. Next, create a file called StrUtil.c with these
 contents:
 
+    #include <string.h>
+    #include <ctype.h>
     #include "CuTest.h"
     
     char* StrToUpper(char* str) {
@@ -73,6 +75,7 @@ contents:
     
 Create another file called AllTests.c with these contents:
 
+    #include <stdio.h>
     #include "CuTest.h"
     
     CuSuite* StrUtilGetSuite();

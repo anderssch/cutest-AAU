@@ -1,5 +1,9 @@
 NOTE
 
+This is an altered version of CuTest 1.5. The alteration consists of 
+bugfixes of Cutest.h and README as well as small changes to license.txt
+and index.html.
+
 The license is based on the zlib/libpng license. For more details see
 http://www.opensource.org/licenses/zlib-license.html. The intent of the
 license is to: 
@@ -12,7 +16,12 @@ license is to:
 
 If you ship CuTest in source form with your source distribution, the
 following license document must be included with it in unaltered form.
-If you find CuTest useful we would like to hear about it. 
+If you find CuTest useful we would like to hear about it.
+
+COPYRIGHT
+
+Copyright (c) 2020 Anders Schlichtkrull
+Copyright (c) 2003 Asim Jalis
 
 LICENSE
 
